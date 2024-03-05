@@ -29,10 +29,10 @@
  .main div{
     width: 50%;
     margin: 0px auto;
+    text-align: center;
  }
  .der{
     font-family: "Acme", sans-serif;
-  
     text-align: center;
     margin-top: 100px;
     color: #424141;
@@ -46,7 +46,6 @@
     color: bisque;
     padding-top: 100px;
     font-size: 35px;
-    text-align: center;
     text-transform: capitalize;
     word-spacing: 3px;
     letter-spacing: 5px;
@@ -57,13 +56,13 @@
    font-family: "Francois One", sans-serif;
     color: rgb(148, 102, 46);
     font-size: 53px;
-    text-align: center;
+
   
  }
  
  .paraqraf1{
     color: rgb(243, 243, 240);
-    text-align: center;
+   
     padding-top: 50px;
     word-spacing: 2px;
     font-size: 15px;
@@ -100,7 +99,8 @@
     background-color: rgba(199, 136, 53, 0.274);
     color: aliceblue;
     box-shadow: 0px 0px 10px  white;
-    margin: 80px 300px;
+    margin-top: 50px;
+   
 
  }
 
