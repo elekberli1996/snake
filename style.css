@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Cambay:ital,wght@0,400;0,700;1,400;1,700&family=Francois+One&family=Pacifico&display=swap');
+
+*{
+    margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     text-decoration: none;
+     list-style: none;
+     font-family: "Cambay", sans-serif;
+    
+   }
+  
+   body{
+    background-color: bisque;
+   }
+ .main{
+    width: 100%;
+    height: 100vh;
+    background-image: url("./snake1.jpg") ; 
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    opacity: 0.9;
+
+
+ } 
+ .main div{
+    width: 50%;
+    margin: 0px auto;
+ }
+ .der{
+    font-family: "Acme", sans-serif;
+  
+    text-align: center;
+    margin-top: 100px;
+    color: #424141;
+    text-shadow: 2px 2px 10px black;
+    letter-spacing: 5px;
+ }
+
+
+ .main div h1{
+   font-family: "Francois One", sans-serif;
+    color: bisque;
+    padding-top: 100px;
+    font-size: 35px;
+    text-align: center;
+    text-transform: capitalize;
+    word-spacing: 3px;
+    letter-spacing: 5px;
+    line-height: 60px;
+  
+ }
+ .bas{
+   font-family: "Francois One", sans-serif;
+    color: rgb(148, 102, 46);
+    font-size: 53px;
+    text-align: center;
+  
+ }
+ 
+ .paraqraf1{
+    color: rgb(243, 243, 240);
+    text-align: center;
+    padding-top: 50px;
+    word-spacing: 2px;
+    font-size: 15px;
+    line-height: 17px;
+    
+ }
+ .paraqraf2{
+  
+    text-align: justify;
+    margin:20px 100px ;
+    word-spacing: 2px;
+    font-size: 15px;
+    
+ }
+ .paraqraf2 span{
+  
+  font-weight: bold;
+    
+ }
+ .paraqraf1 span{
+    color: rgba(134, 143, 14, 0.938);
+    text-shadow: 1px 1px 10px  #746f6f;
+    font-size: 18px;
+    font-style: italic;
+   font-weight: bold;
+ }
+ 
+ .btn{
+    
+    width: 100px;
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgba(199, 136, 53, 0.274);
+    color: aliceblue;
+    box-shadow: 0px 0px 10px  white;
+    margin: 80px 300px;
+
+ }
+
+
+
+ .material-symbols-outlined {
+   font-variation-settings:
+   'FILL' 100,
+   'wght' 400,
+   'GRAD' 0,
+   'opsz' 24
+ }
+
+
+
+ button:hover {
+    background-color: #3f4041;
+    color: white; 
+  }
+.image1{
+    width: 100%;
+    height: 330px;
+    margin-left: auto;
+    margin-right: auto;
+   
+  }
+  img{
+    width: 100%;
+    height: 100%;
+  }
